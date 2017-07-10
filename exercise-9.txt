@@ -1,0 +1,35 @@
+How many Accounts exist?
+
+mysql> SELECT COUNT(*) AS number_of_accounts FROM Account;
++--------------------+
+| number_of_accounts |
++--------------------+
+|               1000 |
++--------------------+
+1 row in set (0.00 sec)
+
+
+*********************************************************
+
+How many Address Books exist?
+
+mysql> SELECT COUNT(*) AS number_of_AddressBooks FROM AddressBook;
++------------------------+
+| number_of_AddressBooks |
++------------------------+
+|                   1100 |
++------------------------+
+1 row in set (0.00 sec)
+
+
+*********************************************************
+
+How many Address Book Entries exist?
+
+mysql> SELECT COUNT(*) AS total_entries_of_AddressBooks FROM Entry;
++-------------------------------+
+| total_entries_of_AddressBooks |
++-------------------------------+
+|                          4000 |
++-------------------------------+
+1 row in set (0.00 sec)
